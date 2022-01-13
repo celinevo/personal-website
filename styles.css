@@ -1,9 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background-color: rgb(204, 222, 241);
+    background-color: #c8dae0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 112.5%;
     line-height: 1.5;
 }
-a {
-    
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2
 }
+
+.button {
+    background-color: #90b9c1;
+    text-decoration: none;
+    padding: 6px;
+    border-radius: 5px;
+    color: black;
+    box-shadow: 2px 2px 4px #466b72;
+    margin-right: 20px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
