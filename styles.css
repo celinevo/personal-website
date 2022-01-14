@@ -3,30 +3,137 @@
 }
 
 body {
-    background-color: #c8dae0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 112.5%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(219, 219, 219);
+    font-family: 'Roboto Mono', monospace;;
+    font-size: 110%;
     line-height: 1.5;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    line-height: 1.2
+h1 {
+    text-decoration: underline dotted;
 }
 
-.button {
-    background-color: #90b9c1;
-    text-decoration: none;
-    padding: 6px;
-    border-radius: 5px;
-    color: black;
-    box-shadow: 2px 2px 4px #466b72;
-    margin-right: 20px;
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2;
+    margin: auto;
 }
 
 img {
+    width: 100%;
+    height: auto;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+img:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+.main-nav {
+    border:  1px solid;
+    display: flex;
+    padding: 3px;
+    gap: 1px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+.main.nav > * {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.button {
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    color: black;
+    border: none;
+  }
+  
+  .button:hover {background-color: #acaaaa}
+  
+  .button:active {
+    background-color: #7f807f;
+    transform: translateY(4px);
+  }
+
+.picture {
+border-radius: 50%;
+}
+
+.about {
+display: flex;
+border: 1px solid;
+border-style: dotted;
+padding: 10px;
+flex-direction: column;
+border-radius: 10px;
+}
+
+.skills {
+    display: flex;
+    border: 1px solid;
+    border-style: dotted;
+    padding: 10px;
+    flex-direction: column;
     border-radius: 10px;
 }
 
+.list {
+list-style-type: circle;
+}
+
+.hobbys {
+    display: flex;
+    border: 1px solid;
+    border-style: dotted;
+    padding: 10px;
+    flex-direction: column;
+    border-radius: 10px;
+
+}
+
+.polaroid {
+    width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: auto;
+}
+
+.container {
+    text-align: center;
+  padding: 10px 20px;
+}
+
+.icons {
+    width: 15%;
+    display: inline-block;
+}
