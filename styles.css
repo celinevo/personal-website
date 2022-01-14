@@ -16,6 +16,15 @@ h1 {
     text-decoration: underline dotted;
 }
 
+h2 {
+    border-bottom-style: hidden;
+    padding: px;
+}
+
+.title {
+    padding: 20px;
+}
+
 h1, h2, h3, h4, h5, h6 {
     line-height: 1.2;
     margin: auto;
@@ -31,9 +40,10 @@ img {
     display: block;
     width: 100%;
     height: auto;
+    padding: 20px;
 }
 
-img:hover {
+.image:hover {
     animation: shake 0.5s;
     animation-iteration-count: infinite;
   }
@@ -89,6 +99,11 @@ img:hover {
 border-radius: 50%;
 }
 
+.space1 {
+    border-style: hidden;
+    padding: 20px;
+}
+
 .about {
 display: flex;
 border: 1px solid;
@@ -96,6 +111,11 @@ border-style: dotted;
 padding: 10px;
 flex-direction: column;
 border-radius: 10px;
+}
+
+.space2 {
+    border-style: hidden;
+    padding: 20px;
 }
 
 .skills {
@@ -109,6 +129,20 @@ border-radius: 10px;
 
 .list {
 list-style-type: circle;
+}
+
+.expi {
+    display: flex;
+    border: 1px solid;
+    border-style: dotted;
+    padding: 10px;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.space3 {
+    border-style: hidden;
+    padding: 20px;
 }
 
 .hobbys {
@@ -128,6 +162,11 @@ list-style-type: circle;
   margin: auto;
 }
 
+.brackets {
+    border-style: hidden;
+    padding: 20px; 
+}
+
 .container {
     text-align: center;
   padding: 10px 20px;
@@ -136,4 +175,8 @@ list-style-type: circle;
 .icons {
     width: 15%;
     display: inline-block;
+}
+
+.info {
+    padding: 20px;;
 }
