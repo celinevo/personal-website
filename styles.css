@@ -7,7 +7,7 @@ body {
     margin: 20px auto;
     padding: 20px;
     background-color: rgb(219, 219, 219);
-    font-family: 'Roboto Mono', monospace;;
+    font-family: 'Roboto Mono', monospace;
     font-size: 110%;
     line-height: 1.5;
 }
@@ -68,7 +68,7 @@ img {
     padding: 3px;
     gap: 1px;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     align-content: center;
 }
@@ -79,21 +79,49 @@ img {
 }
 
 .button {
-    padding: 5px 5px;
+    padding: 1px 1px;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
     outline: none;
     color: black;
     border: none;
+    background-color: rgb(219, 219, 219);
+    font-family: 'Roboto Mono', monospace;
+    font-size: 85%;
   }
   
-  .button:hover {background-color: #acaaaa}
+  .button:hover {background-color: #aca9a9}
   
   .button:active {
     background-color: #7f807f;
     transform: translateY(4px);
   }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ecebeb;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {background-color: #c4c4c4;}
+
+  .dropdown:hover .dropdown-content {display: block;}
 
 .picture {
 border-radius: 50%;
@@ -129,6 +157,12 @@ border-radius: 10px;
 
 .list {
 list-style-type: circle;
+}
+
+.next {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .expi {
