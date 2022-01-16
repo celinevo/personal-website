@@ -16,11 +16,6 @@ h1 {
     text-decoration: underline dotted;
 }
 
-h2 {
-    border-bottom-style: hidden;
-    padding: px;
-}
-
 .title {
     padding: 20px;
 }
@@ -91,19 +86,19 @@ img {
     font-size: 85%;
   }
   
-  .button:hover {background-color: #aca9a9}
+.button:hover {background-color: #aca9a9}
   
-  .button:active {
+.button:active {
     background-color: #7f807f;
     transform: translateY(4px);
   }
   
-  .dropdown {
+.dropdown {
     position: relative;
     display: inline-block;
   }
   
-  .dropdown-content {
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: #ecebeb;
@@ -113,19 +108,19 @@ img {
     font-size: 85%;
   }
   
-  .dropdown-content a {
+.dropdown-content a {
     color: black;
     padding: 5px;
     text-decoration: none;
     display: block;
   }
 
-  .dropdown-content a:hover {background-color: #c4c4c4;}
+.dropdown-content a:hover {background-color: #c4c4c4;}
 
-  .dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {display: block;}
 
 .picture {
-border-radius: 50%;
+    border-radius: 50%;
 }
 
 .space1 {
@@ -134,12 +129,12 @@ border-radius: 50%;
 }
 
 .about {
-display: flex;
-border: 1px solid;
-border-style: dotted;
-padding: 10px;
-flex-direction: column;
-border-radius: 10px;
+    display: flex;
+    border: 1px solid;
+    border-style: dotted;
+    padding: 10px;
+    flex-direction: column;
+    border-radius: 10px;
 }
 
 .space2 {
@@ -157,22 +152,13 @@ border-radius: 10px;
 }
 
 .list {
-list-style-type: circle;
+    list-style-type: circle;
 }
 
 .next {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-}
-
-.expi {
-    display: flex;
-    border: 1px solid;
-    border-style: dotted;
-    padding: 10px;
-    flex-direction: column;
-    border-radius: 10px;
 }
 
 .space3 {
@@ -192,9 +178,9 @@ list-style-type: circle;
 
 .polaroid {
     width: 80%;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin: auto;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: auto;
 }
 
 .brackets {
@@ -204,7 +190,7 @@ list-style-type: circle;
 
 .container {
     text-align: center;
-  padding: 10px 20px;
+    padding: 10px 20px;
 }
 
 .icons {
@@ -213,5 +199,5 @@ list-style-type: circle;
 }
 
 .info {
-    padding: 20px;;
+    padding: 20px;
 }
