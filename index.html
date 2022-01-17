@@ -1,147 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Celine Vogel Personal Website</title>
-<link rel="stylesheet" href="styles.css">
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
-</style> 
-</head>
-<body>
-
-<header>
-    <h1 class="title">Celine Vogel</h1>
-
-    <nav class="main-nav">
-     <a href="#aboutme" class="button">About Me</a>
-        <section class="dropdown">
-          <button class="button">Abilities</button>
-          <div class="dropdown-content">
-            <a href="#hardskills">Hard Skills</a>
-            <a href="#softskills">Soft Skills</a>
-          </div>
-        </section>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap");
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Celine Vogel</h1>
+      <nav class="main-nav">
+        <a href="#aboutme" class="button">About Me</a>
+        <button class="button dropdown">Abilities</button>
+        <a href="#hardskills" class="dropdown-content dropdown">Hard Skills</a>
+        <a href="#softskills" class="dropdown-content dropdown">Soft Skills</a>
         <a href="#interests" class="button">Interests</a>
         <a href="#socials" class="button">Socials</a>
       </nav>
+    </header>
 
-</header>
+    <figure>
+      <img
+        src="https://photostockeditor.com/asset/1080/35/359a/PSE371.jpg"
+        class="image"
+        alt="Picture of a Laptop in the dark."
+      />
+    </figure>
 
-<figure>
-    <img src="https://photostockeditor.com/asset/1080/35/359a/PSE371.jpg" class="image" alt="Picture of a Laptop in the dark.">
-</figure>
+    <section id="aboutme" class="space1">
+      <h2>About Me</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+        voluptua. At vero eos et accusam et justo duo dolores et ea rebum:
+      </p>
+      <blockquote>
+        Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
+        sit amet.
+      </blockquote>
+      <p>
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+        voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+        clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+        amet.
+      </p>
+    </section>
 
-<div class="space1">
-<div class="about">
-<section id="aboutme">
-  <h2>About Me</h2>
-  </section>
+    <section class="next space2 skills">
+      <h3 id="hardskills">Hard Skills:</h3>
+      <ul>
+        <li class="list">HTML</li>
+        <li class="list">CSS</li>
+        <li class="list">GitHub</li>
+        <li class="list">Git</li>
+      </ul>
 
-  <section>
-  <p>
-    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum:
-    <blockquote><b><q>Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</q></b></blockquote> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-  </p>
-</section>
-</div>
-</div>
+      <h3 id="softskills">Soft Skills:</h3>
+      <ul>
+        <li class="list">Creativity</li>
+        <li class="list">Desire to learn</li>
+        <li class="list">Resolving issues</li>
+        <li class="list">Patience</li>
+        <li class="list">Teamwork</li>
+      </ul>
+    </section>
 
-<div class="space2">
-<div class="skills">
+    <section id="interests" class="space3 hobbys">
+      <h2>Interests</h2>
+      <ul class="polaroid brackets">
+        <li>
+          <img
+            src="https://www.guillenphoto.com/data/blog/2019/017-chronique-pourquoi-photographier-paysages-bw-II/images/photographing-landscapes-in-black-and-white-blue-nile-waterfall-amar-guillen-landscape-photographer.jpg"
+            alt=""
+            style="width: 100%"
+          />
+          <p class="container">Interest 1</p>
+        </li>
 
-<div class="next">
-<section id="hardskills">
-  <h3>Hard Skills:</h3>
-  <ul>
-    <li class="list">HTML</li>
-    <li class="list">CSS</li>
-    <li class="list">GitHub</li>
-    <li class="list">Git</li>
-  </ul>
-</section>
+        <li>
+          <img
+            src="https://www.slrlounge.com/wp-content/uploads/2020/08/black-and-white-landscape-photographs-inspire-adventure-feature.jpg"
+            alt=""
+            style="width: 100%"
+          />
+          <p class="container">Interest 2</p>
+        </li>
 
-<section id="softskills">
-  <h3>Soft Skills:</h3>
-  <ul>
-    <li class="list">Creativity</li>
-    <li class="list">Desire to learn</li>
-    <li class="list">Resolving issues</li>
-    <li class="list">Patience</li>
-    <li class="list">Teamwork</li>
-  </ul>
-</section>
-</div>
-</div>
-</div>
+        <li>
+          <img
+            src="https://static.photocrowd.com/upl/lg/cms.hB8v2TQvSsrOAlJ3rVBg-hd.jpeg"
+            alt=""
+            style="width: 100%"
+          />
+          <p class="container">Interest 3</p>
+        </li>
 
-<div class="space3">
-<div class="hobbys">
-<section id="interests">
-  <h2>Interests</h2>
-</section>
+        <li>
+          <img
+            src="https://cdnpt01.viewbug.com/media/mediafiles/2018/04/09/78379035_large1300.jpg"
+            alt=""
+            style="width: 100%"
+          />
+          <p class="container">Interest 4</p>
+        </li>
+      </ul>
+    </section>
 
-<section>
-  <div class="brackets">
-  <div class="polaroid">
-  <img src="https://www.guillenphoto.com/data/blog/2019/017-chronique-pourquoi-photographier-paysages-bw-II/images/photographing-landscapes-in-black-and-white-blue-nile-waterfall-amar-guillen-landscape-photographer.jpg" alt="" style="width:100%">
-    <div class="container">
-    <p>Interest 1</p>
-    </div>
-  </div>
-  </div>
+    <section id="socials" class="info">
+      <h3>Find me</h3>
+      <a href="https://github.com/celinevo"
+        ><img src="Images/kindpng_2558173.png" class="icons" alt=""
+      /></a>
+      <a href="https://codepen.io/celinevo"
+        ><img
+          src="https://res.cloudinary.com/css-tricks/images/w_600,h_600,c_fill/f_auto,q_auto/v1637703537/Button-Fill-Black-Large/Button-Fill-Black-Large-png?_i=AA"
+          class="icons"
+          alt=""
+      /></a>
+      <a href="mailto:vogelceline@gmx.de"
+        ><img
+          src="Images/toppng.com-email-icon-vector-circle-980x980.png"
+          class="icons"
+          alt=""
+      /></a>
+      <a href="049123456789"
+        ><img
+          src="Images/kisspng-portable-network-graphics-computer-icons-scalable-5cb46641a40cf3.523178441555326529672.png"
+          class="icons"
+          alt=""
+      /></a>
+    </section>
 
-  <div class="brackets">
-  <div class="polaroid">
-    <img src="https://www.slrlounge.com/wp-content/uploads/2020/08/black-and-white-landscape-photographs-inspire-adventure-feature.jpg" alt="" style="width:100%">
-    <div class="container">
-    <p>Interest 2</p>
-    </div>
-  </div>
-  </div>
-
-  <div class="brackets">
-  <div class="polaroid">
-    <img src="https://static.photocrowd.com/upl/lg/cms.hB8v2TQvSsrOAlJ3rVBg-hd.jpeg" alt="" style="width:100%">
-    <div class="container">
-    <p>Interest 3</p>
-    </div>
-  </div>
-  </div>
-
-  <div class="brackets">
-  <div class="polaroid">
-    <img src="https://cdnpt01.viewbug.com/media/mediafiles/2018/04/09/78379035_large1300.jpg" alt="" style="width:100%">
-    <div class="container">
-    <p>Interest 4</p>
-    </div>
-  </div>
-  </div>
-</section>
-</div>
-</div>
-
-<section id="socials">
-  <h3>Find me</h3>
-</section>
-
-<section class="info">
-  <a href="https://github.com/celinevo"><img src="Images/kindpng_2558173.png" class="icons" alt=""></a>
-  <a href="https://codepen.io/celinevo"><img src="https://res.cloudinary.com/css-tricks/images/w_600,h_600,c_fill/f_auto,q_auto/v1637703537/Button-Fill-Black-Large/Button-Fill-Black-Large-png?_i=AA" class="icons" alt=""></a>
-  <a href="mailto:vogelceline@gmx.de"><img src="Images/toppng.com-email-icon-vector-circle-980x980.png" class="icons" alt=""></a>
-  <a href="049123456789"><img src="Images/kisspng-portable-network-graphics-computer-icons-scalable-5cb46641a40cf3.523178441555326529672.png" class="icons" alt=""></a>
-</section>
-
-<footer>
-<nav class="main-nav">
-  <a href="#here" class="button">Here</a>
-  <a href="#there" class="button">There</a>
-  <a href="#where" class="button">Where</a>
-  <a href="#who" class="button">Who</a>
-</nav>
-</footer>
-
-</body>
+    <footer>
+      <nav class="main-nav">
+        <a href="#here" class="button">Here</a>
+        <a href="#there" class="button">There</a>
+        <a href="#where" class="button">Where</a>
+        <a href="#who" class="button">Who</a>
+      </nav>
+    </footer>
+  </body>
 </html>
