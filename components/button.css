@@ -1,0 +1,21 @@
+.button {
+  padding: 1px 1px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  color: var(--color-button-text);
+  border: none;
+  background-color: var(--color-button-background);
+  font-family: "Roboto Mono", monospace;
+  font-size: 85%;
+}
+
+.button:hover {
+  background-color: var(--color-button-hover);
+}
+
+.button:active {
+  background-color: var(--color-button-background-hover);
+  transform: translateY(4px);
+}

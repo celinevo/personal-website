@@ -1,0 +1,21 @@
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+
+.picture {
+  border-radius: 50%;
+}
+
+.icons {
+  width: 15%;
+  display: inline-block;
+}

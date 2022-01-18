@@ -1,0 +1,9 @@
+.polaroid {
+  width: 80%;
+  margin: auto;
+}
+
+.polaroid--color {
+  background-color: var(--color-polaroid);
+  box-shadow: var(--color-polaroid-box-shadow);
+}

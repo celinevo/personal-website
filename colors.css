@@ -1,0 +1,10 @@
+:root {
+  --color-polaroid: white;
+  --color-polaroid-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  --color-button-background: rgb(219, 219, 219);
+  --color-button-hover: #aca9a9;
+  --color-button-text: black;
+  --color-button-background-hover: #7f807f;
+  --color-body-background: rgb(219, 219, 219);
+}

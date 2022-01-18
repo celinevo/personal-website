@@ -1,0 +1,20 @@
+.brackets {
+  margin: 10px;
+}
+
+.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.info {
+  padding: 20px;
+}
+
+.next {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: auto;
+}
